@@ -32,7 +32,7 @@ const Intro = () => {
           </li>
         </div>
 
-        <div className="container">
+        <div className="container-center">
           <button>Contact Me</button>
         </div>
       </div>

@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
 }
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .app {
   font-family: "Roboto", sans-serif;
 }
