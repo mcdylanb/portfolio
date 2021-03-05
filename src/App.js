@@ -4,23 +4,37 @@ const Intro = () => {
   return (
     <div>
       <div className="intro">
-        <blockquote>welcome to my simple portfolio website</blockquote>
-        <h3> My name is </h3>
-        <h1> Dylan </h1>
-        <h1>Balagtas</h1>
-        <p>
-          Im a <strong>tech enthusiast</strong>
-        </p>
-        <p>
-          love to <strong>learn new things</strong>
-        </p>
-        <p>
-          love to <strong>constantly improve</strong>
-        </p>
-        <p>
-          and <strong>teaching</strong>
-        </p>
-        <button>Contact Me</button>
+        <div className="container">
+          <blockquote>welcome to my simple portfolio website</blockquote>
+        </div>
+
+        <div className="container">
+          <h3> My name is </h3>
+        </div>
+
+        <div className="container">
+          <h1> Dylan </h1>
+          <h1>Balagtas</h1>
+        </div>
+
+        <div className="container">
+          <li>
+            Im a <strong>tech enthusiast</strong>
+          </li>
+          <li>
+            love to <strong>learn new things</strong>
+          </li>
+          <li>
+            love to <strong>constantly improve</strong>
+          </li>
+          <li>
+            and <strong>teaching</strong>
+          </li>
+        </div>
+
+        <div className="container">
+          <button>Contact Me</button>
+        </div>
       </div>
     </div>
   );
