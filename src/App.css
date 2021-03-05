@@ -36,6 +36,10 @@ ul li {
   font-size: 1.5em;
 }
 
+.intro blockquote {
+  text-align: center;
+}
+
 .intro button {
   border: 0;
   border-radius: 0.5rem;
