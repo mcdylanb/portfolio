@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <div>
       <div className="intro">
-        <div className="container">
+        <div className="container-center">
           <blockquote>welcome to my simple portfolio website</blockquote>
         </div>
 
@@ -17,7 +17,7 @@ const Intro = () => {
           <h1>Balagtas</h1>
         </div>
 
-        <div className="container">
+        <ul className="container">
           <li>
             Im a <strong>tech enthusiast</strong>
           </li>
@@ -30,7 +30,7 @@ const Intro = () => {
           <li>
             and <strong>teaching</strong>
           </li>
-        </div>
+        </ul>
 
         <div className="container-center">
           <button>Contact Me</button>
