@@ -1,8 +1,12 @@
 import "./App.css";
+import profile from "./assets/profile.jpg";
 
+// const Nav = () => {
+
+// }
 const Intro = () => {
   return (
-    <div>
+    <>
       <div className="intro">
         <div className="container-center">
           <blockquote>welcome to my simple portfolio website</blockquote>
@@ -35,8 +39,11 @@ const Intro = () => {
         <div className="container-center">
           <button>Contact Me</button>
         </div>
+        <div className="container">
+          <img src={profile} alt="" />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 function App() {
