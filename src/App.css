@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -9,17 +13,18 @@
 }
 
 ul {
-  margin: 0;
+  margin-bottom: 1em;
   padding: 0;
 }
 ul li {
   list-style: none;
+  font-size: 1.5em;
 }
 .app {
   font-family: "Roboto", sans-serif;
 }
 .intro {
-  margin: 10px;
+  margin: 2em;
 }
 
 .intro h1 {
@@ -31,12 +36,8 @@ ul li {
   margin-bottom: 0;
 }
 
-.intro p {
-  margin: 0;
-  font-size: 1.5em;
-}
-
 .intro blockquote {
+  margin: 3em 0;
   text-align: center;
 }
 
