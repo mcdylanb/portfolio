@@ -7,7 +7,7 @@ import profile from "./assets/profile.jpg";
 const Intro = () => {
   return (
     <>
-      <div className="intro">
+      <div className="intro container-v">
         <div className="container-center">
           <blockquote>welcome to my simple portfolio website</blockquote>
         </div>
@@ -16,12 +16,17 @@ const Intro = () => {
           <h3> My name is </h3>
         </div>
 
-        <div className="container">
-          <h1> Dylan </h1>
-          <h1>Balagtas</h1>
+        <div className="grid-container">
+          <h1>
+            {" "}
+            Dylan <br />
+            Balagtas
+          </h1>
+
+          <img src={profile} alt="" />
         </div>
 
-        <ul className="container">
+        <ul className="container-v">
           <li>
             Im a <strong>tech enthusiast</strong>
           </li>
@@ -38,9 +43,6 @@ const Intro = () => {
 
         <div className="container-center">
           <button>Contact Me</button>
-        </div>
-        <div className="container">
-          <img src={profile} alt="" />
         </div>
       </div>
     </>
