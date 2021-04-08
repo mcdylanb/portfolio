@@ -4,9 +4,8 @@ function App() {
   return (
     <div className="intro">
       <div className="text">
-        <h3>&#128075; Hi, Im</h3>
-        <h1>Dylan Balagtas</h1>
-        <p>A Web Developer focused on bringing your ideas to reality.</p>
+        <h3>Dylan Balagtas</h3>
+        <h1>A Web Developer focused on <br/> bringing your ideas to reality.</h1>
       </div>
       <a
         href="https://twitter.com/messages/compose?recipient_id=706870613571338240"
