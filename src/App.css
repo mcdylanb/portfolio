@@ -10,14 +10,18 @@
 }
 
 
-.intro > h1 {
-    font-size: 5rem;
+h1 {
+    font-size: 7rem;
     font-weight: 1000;
-    color: var(--primary-color);
 }
 
 h3 {
     font-size: 2rem;
+    font-weight: 500;
+}
+p {
+    font-size: 1.3rem;
+    font-weight: 100;
 }
 
 .intro {
@@ -28,7 +32,13 @@ h3 {
     justify-content: center;
 }
 
-.tag-container {
+.text p {
+    margin: 1rem;
+    text-align: center;
+}
+
+
+/* .tag-container {
     display: flex;
     flex-direction: row;
 }
@@ -47,7 +57,7 @@ h3 {
     border: 2px solid white;
     background-color: var(--primary-color);
     color: white;
-}
+} */
 
 .contact-btn {
     color: white;

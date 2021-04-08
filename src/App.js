@@ -3,12 +3,10 @@ import "./App.css";
 function App() {
   return (
     <div className="intro">
-      <h3>&#128075; Hi, Im</h3>
-      <h1>Dylan Balagtas</h1>
-      <div className="tag-container">
-        <div className="tag">Front-end Developer</div>
-        <div className="tag">Builder</div>
-        <div className="tag">Student</div>
+      <div className="text">
+        <h3>&#128075; Hi, Im</h3>
+        <h1>Dylan Balagtas</h1>
+        <p>A Web Developer focused on bringing your ideas to reality.</p>
       </div>
       <a
         href="https://twitter.com/messages/compose?recipient_id=706870613571338240"
