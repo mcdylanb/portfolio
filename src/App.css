@@ -32,6 +32,16 @@ h3 {
     margin: 5rem;
 }
 
+.bg-banner {
+    background-color: #abdf75ff;
+    position: absolute;
+    z-index: -2;
+    height: 48vh;
+    width: 100vw;
+    bottom: 0;
+    
+}
+
 
 /* .tag-container {
     display: flex;
