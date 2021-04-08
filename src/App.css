@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 :root {
     --primary-color: #EF233C;
@@ -12,29 +13,23 @@
 
 h1 {
     font-size: 5rem;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight: 500;
-}
-p {
-    font-size: 1.3rem;
-    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 
 .intro {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.text p {
-    margin: 1rem;
-    text-align: center;
+.text {
+    margin: 5rem;
 }
 
 
